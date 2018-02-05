@@ -6,7 +6,7 @@ public class części {
     private boolean prawy;
     private boolean przedni;
 
-    public czesci(String waga, int ilosc, String funkcja, boolean prawy, boolean przedni)
+    public części(String waga, int ilosc, String funkcja, boolean prawy, boolean przedni)
     {
         this.waga=waga;
         this.ilosc=ilosc;
