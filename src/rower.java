@@ -6,10 +6,19 @@ public class rower {
     public static void main(String[] args) {
          //z czego składa się rower? rower składa się z części. rower jest programem, części są obiektami.
         części kierownica = new części();
-        części pedały = new części();
-        części łańcuch = new części();
-        części koła = new części();
+        części pedal_lewy = new części();
+        części pedal_prawy = new części();
+        części lancuch = new części();
+        części kolo_przednie = new części();
+        części kolo_tylne = new części();
 
+        System.out.println("rower składa się z: ");
 
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
     }
 }
