@@ -14,8 +14,12 @@ public class rower {
 
         System.out.println("rower składa się z części o następujących parametrach w kategoriach: \n|NAZWA | WAGA | ILOŚĆ | FUNKCJA | PRAWY | PRZEDNI|: ");
 
-        System.out.println("|"+"kierownica|" + kierownica.getWaga() + "|" + kierownica.getIlosc() + "|" + kierownica.getFunkcja() + "|" + kierownica.isPrawy() + "|" + kierownica.isPrzedni()+"|");
-        System.out.println("|"+"pedał lewy"+"|"+pedal_lewy.getWaga()+"|"+pedal_lewy.getIlosc()+"|"+pedal_lewy.getFunkcja()+"|"+pedal_lewy.isPrawy()+"|"+pedal_lewy.isPrzedni()+"|");
+        System.out.println("|kierownica|"+kierownica.getWaga()+"|"+kierownica.getIlosc()+"|"+kierownica.getFunkcja()+"|"+kierownica.isPrawy()+"|"+kierownica.isPrzedni()+"|");
+        System.out.println("|pedał lewy|"+pedal_lewy.getWaga()+"|"+pedal_lewy.getIlosc()+"|"+pedal_lewy.getFunkcja()+"|"+pedal_lewy.isPrawy()+"|"+pedal_lewy.isPrzedni()+"|");
+        System.out.println("|pedał prawy|"+pedal_prawy.getWaga()+"|"+pedal_prawy.getIlosc()+"|"+pedal_prawy.getFunkcja()+"|"+pedal_prawy.isPrawy()+"|"+pedal_prawy.isPrzedni()+"|");
+        System.out.println("|łańcuch|"+lancuch.getWaga()+"|"+lancuch.getIlosc()+"|"+lancuch.getFunkcja()+"|"+lancuch.isPrawy()+"|"+lancuch.isPrzedni()+"|");
+        System.out.println("|koło przednie|"+kolo_przednie.getWaga()+"|"+kolo_przednie.getIlosc()+"|"+kolo_przednie.getFunkcja()+"|"+kolo_przednie.isPrawy()+"|"+kolo_przednie.isPrzedni()+"|");
+        System.out.println("|koło tylne|"+kolo_tylne.getWaga()+"|"+kolo_tylne.getIlosc()+"|"+kolo_tylne.getFunkcja()+"|"+kolo_tylne.isPrawy()+"|"+kolo_tylne.isPrzedni()+"|");
 
     }
 }
