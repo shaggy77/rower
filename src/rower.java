@@ -4,6 +4,12 @@ Zakładamy, że pedały są takie same.
 */
 public class rower {
     public static void main(String[] args) {
-         
+         //z czego składa się rower? rower składa się z części. rower jest programem, części są obiektami.
+        części kierownica = new części();
+        części pedały = new części();
+        części łańcuch = new części();
+        części koła = new części();
+        
+
     }
 }
