@@ -9,7 +9,7 @@ public class rower {
         części pedały = new części();
         części łańcuch = new części();
         części koła = new części();
-        
+
 
     }
 }
